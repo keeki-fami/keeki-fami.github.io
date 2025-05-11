@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+body{
+    font-size:13px;
+    line-height:1.4;
+    margin:0;
+    text-align:center;
+    background:#cbb994;
+}
+/*媚茶*/
+.titlebar{
+    background:#716246;
+    color:white;
+    padding: 50px 5px;
+}
+.titlebar h1{
+    font-size:50px;
+}
+
+.whatto{
+    background:#cbb994;
+    /*background:#cbb994;*/
+    color:black;
+    text-align:center;
+    padding:10px 0 10px 0;
+    font-size:13px;
+    line-height:1.4;
+}
+
+.whatto h1{
+    font-size:50px;
+    margin:50px 30px 30px 30px;
+}
+
+.whatto img{
+    border-radius:100%;
+    margin:10px;
+}
+.whatto p{
+    margin:5px 5px;
+    padding:0 40px 0 40px;
+}
+
+.skill{
+    background:#cbb994;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:0;
+    padding :50px 50px 50px 50px;
+}
+.skill h1{
+    font-size:50px;
+    margin:30px;
+}
+
+.skill img{
+    margin:10px;
+}
+.card{
+    display :flex;
+    background:white;
+    padding:20px 20px;
+    margin: 20px 100px 0px 100px;
+    font-size:12px;
+}
+.skillname{
+    font-weight:bold;
+    font-size:25px;
+    margin:0px;
+}
+.textfield{
+    text-align: left;
+}
+.textfield p{
+    margin:0px;
+}
+
+.rate5{
+    position:relative;/*相対*/
+    display: inline-block;
+    width: 75px;
+    height:15px;
+    font-size:15px; &::before,
+    &::after{
+        position:absolute;/*絶対*/
+        display:inline-block;
+        height:15px;
+        content:"★★★★★";
+    }&::before{
+        color:#c4c4c4
+    }
+    &::after{
+        overflow:hidden;
+        width:75px;
+        color:black;
+    }
+}
+
+.rate4{
+    position:relative;/*相対*/
+    display: inline-block;
+    width: 75px;
+    height:15px;
+    font-size:15px; &::before,
+    &::after{
+        position:absolute;/*絶対*/
+        display:inline-block;
+        height:15px;
+        content:"★★★★★";
+    }&::before{
+        color:#c4c4c4
+    }
+    &::after{
+        overflow:hidden;
+        width:60px;
+        color:black;
+    }
+}
+.rate3{
+    position:relative;/*相対*/
+    display: inline-block;
+    width: 75px;
+    height:15px;
+    font-size:15px; &::before,
+    &::after{
+        position:absolute;/*絶対*/
+        display:inline-block;
+        height:15px;
+        content:"★★★★★";
+    }&::before{
+        color:#c4c4c4
+    }
+    &::after{
+        overflow:hidden;
+        width:45px;
+        color:black;
+    }
+}
+.rate2{
+    position:relative;/*相対*/
+    display: inline-block;
+    width: 75px;
+    height:15px;
+    font-size:15px; &::before,
+    &::after{
+        position:absolute;/*絶対*/
+        display:inline-block;
+        height:15px;
+        content:"★★★★★";
+    }&::before{
+        color:#c4c4c4
+    }
+    &::after{
+        overflow:hidden;
+        width:30px;
+        color:black;
+    }
+}
+.rate1{
+    position:relative;/*相対*/
+    display: inline-block;
+    width: 75px;
+    height:15px;
+    font-size:15px; &::before,
+    &::after{
+        position:absolute;/*絶対*/
+        display:inline-block;
+        height:15px;
+        content:"★★★★★";
+    }&::before{
+        color:#c4c4c4
+    }
+    &::after{
+        overflow:hidden;
+        width:15px;
+        color:black;
+    }
+}
+.product{
+    background:#cbb994;
+}
+
+.product h1{
+    font-size:50px;
+    margin:50px;
+}
+
+.product img{
+    display:inline-block;
+    box-shadow:0px 0px 20px -5px rgba(0,0,0,0.8);
+}
+
+.product-row{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.hobby h1{
+    font-size:50px;
+    margin:30px;
+}
+.hobbycard{
+    background:white;
+    margin:50px 100px;
+}
+.contact h1{
+    font-size:50px;
+}
+
+.bottombar{
+    padding:10px 0;
+    background:#716246;
+}
+.bottombar h1{
+    font-size:10px;
+    font-family:"Times New Roman"
+}
+
+.infomation{
+    display:inline-block;
+    text-align:center;
+}
