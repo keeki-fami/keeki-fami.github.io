@@ -63,6 +63,12 @@ body{
     margin: 20px 100px 0px 100px;
     font-size:12px;
 }
+.card a{
+    transition:all.5s;
+}
+.card a:hover{
+    color:orange;
+}
 .skillname{
     font-weight:bold;
     font-size:25px;
@@ -196,6 +202,13 @@ body{
     gap:20px;
 }
 
+.product a{
+    transition:all.5s;
+}
+.product a:hover{
+    color:orange;
+}
+
 .hobby h1{
     font-size:50px;
     margin:30px;
@@ -203,6 +216,7 @@ body{
 .hobbycard{
     background:white;
     margin:50px 100px;
+    border-radius:10px;
 }
 .contact h1{
     font-size:50px;
@@ -220,4 +234,11 @@ body{
 .infomation{
     display:inline-block;
     text-align:center;
+}
+
+.contact a{
+    transition:all.5s;
+}
+.contact a:hover{
+    color:orange;
 }
