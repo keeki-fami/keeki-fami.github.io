@@ -1,252 +1,98 @@
 @charset "UTF-8";
 
-body{
-    font-size:13px;
-    line-height:1.4;
-    margin:0;
-    text-align:center;
-    background:#cbb994;
-}
-/*媚茶*/
-.titlebar{
-    background:#716246;
-    color:white;
-    padding: 50px 5px;
-}
-.titlebar h1{
-    font-size:50px;
+body {
+    text-align: center;
+    margin: 50px;
+    background-color: #8f9394;
+    color: white;
 }
 
-.whatto{
-    background:#cbb994;
-    /*background:#cbb994;*/
-    color:black;
-    text-align:center;
-    padding:10px 0 10px 0;
-    font-size:13px;
-    line-height:1.4;
+/* .mokuji {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;  
+    height: 200px;
+    margin: 30px 300px;
+    /* text-align: center; */
+    border: 1px solid #FFFFFF;
+    /* display: flex; */
+    /* justify-content: center;               */
+    /* justify-content: center; */
+} */
+
+.button {
+    background-color: #000000;
+    /* height: 50px; */
+    color: white;
+    text-align: center;
 }
 
-.whatto h1{
-    font-size:50px;
-    margin:50px 30px 30px 30px;
+.background-text {
+    /* margin: 0 300px; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
 }
 
-.whatto img{
-    border-radius:100%;
-    margin:10px;
-}
-.whatto p{
-    margin:5px 5px;
-    padding:0 40px 0 40px;
+.background-text-block h2 {
+    font-size: 30px;
 }
 
-.skill{
-    background:#cbb994;
-    text-align:center;
-    margin-top:0;
-    margin-bottom:0;
-    padding :50px 50px 50px 50px;
-}
-.skill h1{
-    font-size:50px;
-    margin:30px;
+.background-text-block {
+    margin: 0 300px;
 }
 
-.skill img{
-    margin:10px;
+.tag {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 2px 20px;
+    border-radius: 15px;
 }
-.card{
-    display :flex;
-    background:white;
-    padding:20px 20px;
-    margin: 20px 100px 0px 100px;
-    font-size:12px;
+
+.tag-row {
+    display: flex;
 }
-.card a{
-    transition:all.5s;
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-.card a:hover{
-    color:orange;
+
+.separator::before,
+.separator::after {
+  content: "";
+  height: 1px;
+  background-color: #FFF;
+  flex: 1;
 }
-.skillname{
-    font-weight:bold;
-    font-size:25px;
-    margin:0px;
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    /* background-color: white; */
 }
-.textfield{
+.card img {
+  margin-right: 16px;
+  padding-right: 16px;
+  border-right: 1px solid #FFF; /* ← 縦線 */
+}
+
+.card-text {
     text-align: left;
+    /* display: flex;              
+    flex-direction: column;  */
+    width: 500px;
+    /* justify-content: space-between; */
 }
-.textfield p{
-    margin:0px;
+.card-text h1 {
+    font-size: 30px;
+    margin: 5px;
 }
-
-.rate5{
-    position:relative;/*相対*/
-    display: inline-block;
-    width: 75px;
-    height:15px;
-    font-size:15px; &::before,
-    &::after{
-        position:absolute;/*絶対*/
-        display:inline-block;
-        height:15px;
-        content:"★★★★★";
-    }&::before{
-        color:#c4c4c4
-    }
-    &::after{
-        overflow:hidden;
-        width:75px;
-        color:black;
-    }
-}
-
-.rate4{
-    position:relative;/*相対*/
-    display: inline-block;
-    width: 75px;
-    height:15px;
-    font-size:15px; &::before,
-    &::after{
-        position:absolute;/*絶対*/
-        display:inline-block;
-        height:15px;
-        content:"★★★★★";
-    }&::before{
-        color:#c4c4c4
-    }
-    &::after{
-        overflow:hidden;
-        width:60px;
-        color:black;
-    }
-}
-.rate3{
-    position:relative;/*相対*/
-    display: inline-block;
-    width: 75px;
-    height:15px;
-    font-size:15px; &::before,
-    &::after{
-        position:absolute;/*絶対*/
-        display:inline-block;
-        height:15px;
-        content:"★★★★★";
-    }&::before{
-        color:#c4c4c4
-    }
-    &::after{
-        overflow:hidden;
-        width:45px;
-        color:black;
-    }
-}
-.rate2{
-    position:relative;/*相対*/
-    display: inline-block;
-    width: 75px;
-    height:15px;
-    font-size:15px; &::before,
-    &::after{
-        position:absolute;/*絶対*/
-        display:inline-block;
-        height:15px;
-        content:"★★★★★";
-    }&::before{
-        color:#c4c4c4
-    }
-    &::after{
-        overflow:hidden;
-        width:30px;
-        color:black;
-    }
-}
-.rate1{
-    position:relative;/*相対*/
-    display: inline-block;
-    width: 75px;
-    height:15px;
-    font-size:15px; &::before,
-    &::after{
-        position:absolute;/*絶対*/
-        display:inline-block;
-        height:15px;
-        content:"★★★★★";
-    }&::before{
-        color:#c4c4c4
-    }
-    &::after{
-        overflow:hidden;
-        width:15px;
-        color:black;
-    }
-}
-.product{
-    background:#cbb994;
-}
-
-.product h1{
-    font-size:50px;
-    margin:50px;
-}
-
-.product img{
-    display:inline-block;
-    box-shadow:0px 0px 20px -5px rgba(0,0,0,0.8);
-}
-
-.product-row{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-}
-
-.product a{
-    transition:all.5s;
-}
-.product a:hover{
-    color:orange;
-}
-
-.hobby h1{
-    font-size:50px;
-    margin:30px;
-}
-.hobbycard{
-    background:white;
-    margin:50px 100px;
-    border-radius:10px;
-}
-.contact h1{
-    font-size:50px;
-}
-
-.bottombar{
-    padding:10px 0;
-    background:#716246;
-}
-.bottombar h1{
-    font-size:10px;
-    font-family:"Times New Roman"
-}
-
-.infomation{
-    display:inline-block;
-    text-align:center;
-}
-
-.contact a{
-    transition:all.5s;
-}
-.contact a:hover{
-    color:orange;
-}
-.blog h1{
-    font-size:50px;
-}
-.blogcard{
-    background:white;
-    margin:50px 100px;
-    border-radius:10px;
+.card-text p {
+    font-size: 15px;
+    /* margin: 5px; */
 }
