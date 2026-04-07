@@ -7,6 +7,17 @@ body {
     color: white;
 }
 
+.titlebar img {
+    object-fit: cover;
+    width: 800px; 
+    height: 300px;
+    padding: 100px 0px;
+}
+
+.point {
+    padding: 100px;
+}
+
 /* .mokuji {
     display: flex;
     justify-content: center; 
@@ -52,6 +63,7 @@ body {
 
 .tag-row {
     display: flex;
+    margin: 5px;
 }
 
 .separator {
@@ -79,6 +91,20 @@ body {
   margin-right: 16px;
   padding-right: 16px;
   border-right: 1px solid #FFF; /* ← 縦線 */
+
+}
+
+.image {
+    position:relative;
+}
+.top-pic {
+    position:absolute;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.top-pic:hover{
+  opacity: 1;
 }
 
 .card-text {
@@ -94,5 +120,6 @@ body {
 }
 .card-text p {
     font-size: 15px;
+    margin: 5px;
     /* margin: 5px; */
 }
