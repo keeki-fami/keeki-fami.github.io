@@ -7,6 +7,12 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    body p{
+        font-size: 7px;
+    }
+}
+
 .titlebar img {
     object-fit: contain;
     width: 800px; 
@@ -14,9 +20,23 @@ body {
     /* padding: 50px; */
 }
 
+@media screen and (max-width: 768px) {
+  .titlebar img {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+  }
+}
+
 .point {
     /* padding: 50px; */
     padding: 100px 0px 150px 0px;
+}
+
+@media screen and (max-width: 760px) {
+    .point {
+        padding: 0px;
+    } 
 }
 
 /* .mokuji {
@@ -49,9 +69,15 @@ body {
 .background-text-block h2 {
     font-size: 30px;
 }
+@media screen and (max-width: 768px) {
+  .background-text-block h2 {
+    font-size:15px;
+  }
+}
+
 
 .background-text-block {
-    margin: 0 300px;
+    margin: 0 50px;
 }
 
 .tag {
@@ -60,6 +86,16 @@ body {
     border: 1px solid #FFFFFF;
     padding: 2px 20px;
     border-radius: 15px;
+}
+@media screen and (max-width: 768px) {
+  .tag {
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 7px;
+    border: 1px solid #FFFFFF;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
 }
 
 .tag-row {
@@ -88,11 +124,63 @@ body {
     padding: 50px;
     /* background-color: white; */
 }
+
 .card img {
+  object-fit: cover; 
+  width: 300px; 
+  height: 200px;
   margin-right: 16px;
   padding-right: 16px;
   border-right: 1px solid #FFF; /* ← 縦線 */
+}
 
+.card-text h1 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.card-text p {
+    font-size: 15px;
+    margin: 5px;
+    /* margin: 5px; */
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        padding: 20px;
+        flex-direction: column; 
+        justify-content: center;
+        /* align-items: center; */
+    }
+        
+    /* background-color: white; */
+    .card h1{
+        font-size: 15px;
+        
+    /* background-color: white; */
+    }   
+    .card p {
+        font-size: 7px;
+    }
+
+    .card img {
+        margin-right: 0px;
+        /* padding-right: 0px; */
+        border-right: none;
+        object-fit: cover;
+        height: 170px;
+        width: 216px;
+    }
+
+    .card-text {
+        margin-left: 16px;
+        padding-left: 16px;
+        border-left: 1px solid #FFF;
+        text-align: left;
+        max-width: 200px;
+    }
 }
 
 .image {
@@ -114,13 +202,4 @@ body {
     flex-direction: column;  */
     width: 500px;
     /* justify-content: space-between; */
-}
-.card-text h1 {
-    font-size: 30px;
-    margin: 5px;
-}
-.card-text p {
-    font-size: 15px;
-    margin: 5px;
-    /* margin: 5px; */
 }
