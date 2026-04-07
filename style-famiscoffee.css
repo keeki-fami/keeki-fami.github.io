@@ -8,10 +8,10 @@ body {
 }
 
 .titlebar img {
-    object-fit: cover;
+    object-fit: contain;
     width: 800px; 
     height: 300px;
-    padding: 100px 0px;
+    padding: 100px;
 }
 
 .point {
