@@ -10,12 +10,13 @@ body {
 .titlebar img {
     object-fit: contain;
     width: 800px; 
-    height: 300px;
-    padding: 100px;
+    height: 400px;
+    /* padding: 50px; */
 }
 
 .point {
-    padding: 100px;
+    /* padding: 50px; */
+    padding: 100px 0px 150px 0px;
 }
 
 /* .mokuji {
