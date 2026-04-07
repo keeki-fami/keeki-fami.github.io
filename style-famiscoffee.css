@@ -5,11 +5,12 @@ body {
     margin: 50px;
     background-color: #8f9394;
     color: white;
+    font-family: "YuMincho";
 }
 
 @media screen and (max-width: 768px) {
     body p{
-        font-size: 7px;
+        font-size: 15px;
     }
 }
 
@@ -24,7 +25,7 @@ body {
   .titlebar img {
     object-fit: contain;
     width: 300px;
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -35,7 +36,7 @@ body {
 
 @media screen and (max-width: 760px) {
     .point {
-        padding: 0px;
+        padding: 0px;;
     } 
 }
 
@@ -69,15 +70,19 @@ body {
 .background-text-block h2 {
     font-size: 30px;
 }
-@media screen and (max-width: 768px) {
-  .background-text-block h2 {
-    font-size:15px;
-  }
-}
-
 
 .background-text-block {
     margin: 0 50px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .background-text-block {
+        margin: 0 25px;
+    }
+  .background-text-block h2 {
+    font-size:20px;
+  }
 }
 
 .tag {
@@ -157,12 +162,12 @@ body {
         
     /* background-color: white; */
     .card h1{
-        font-size: 15px;
+        font-size: 20px;
         
     /* background-color: white; */
     }   
     .card p {
-        font-size: 7px;
+        font-size: 13px;
     }
 
     .card img {
