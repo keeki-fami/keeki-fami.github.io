@@ -32,11 +32,23 @@ body {
 .point {
     /* padding: 50px; */
     padding: 100px 0px 150px 0px;
+    animation: bound 1s infinite;
+}
+@keyframes bound {
+    0% {
+        transform: translateY(-20%);
+    }
+    80% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 @media screen and (max-width: 760px) {
     .point {
-        padding: 0px;;
+        padding: 0px;
     } 
 }
 
