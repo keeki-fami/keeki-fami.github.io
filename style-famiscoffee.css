@@ -139,7 +139,17 @@ body {
     display: flex;
     justify-content: center;
     padding: 50px;
+    opacity: 0;
+    /* visibility: hidden; */
+    transition: all 1s;
+    transform: translateY(100px);
     /* background-color: white; */
+}
+
+.is-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .card img {
