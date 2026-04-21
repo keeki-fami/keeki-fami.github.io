@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
 
     cards.forEach(function(card) {
         const distanceToBox = card.offsetTop;
-        if(scroll + windowHeight > distanceToBox) {
+        if(scroll + windowHeight > distanceToBox + 100) {
             card.classList.add('is-active');
         }
     })
