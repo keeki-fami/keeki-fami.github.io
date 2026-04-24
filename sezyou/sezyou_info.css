@@ -1,0 +1,14 @@
+body {
+    background-color: #8f9394;
+    font-family: "YuMincho";
+    color: white;
+}
+
+.relative_context {
+    position: relative;
+}
+.absolute_context {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
