@@ -162,7 +162,7 @@ body {
 
 .tag {
     background: transparent;
-    color: #FFFFFF;
+    color: white;
     border: 1px solid #FFFFFF;
     padding: 2px 20px;
     border-radius: 15px;
@@ -170,7 +170,7 @@ body {
 @media screen and (max-width: 768px) {
   .tag {
     background: transparent;
-    color: #FFFFFF;
+    color: white;
     font-size: 7px;
     border: 1px solid #FFFFFF;
     padding: 2px 10px;
