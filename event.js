@@ -12,8 +12,13 @@ window.addEventListener('scroll', function() {
     })
 });
 
-window.onload = function() {
-    const spinner = document.getElementById('loading');
-
+const spinner = document.getElementById('loading');
+setTimeout(() => {
     spinner.classList.add('loaded');
-}
+}, 1500);
+
+// window.onload = function() {
+//     const spinner = document.getElementById('loading');
+
+//     spinner.classList.add('loaded');
+// }
