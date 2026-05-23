@@ -58,7 +58,7 @@
                 中高は卓球部に入って頑張ってました。<br>
                 学部1・2年は機械系の学科に所属しています。<br>
                 CとSwiftが好き。RustとZigを勉強中。<br>
-                Processingもやってみたい。<br>
+                あとprocessingも。<br>
             </p>
         </div>
     </div>
@@ -67,12 +67,13 @@
             <h2>2023</h2>
             <!-- <p>2023-03 群馬県立高崎高等学校 卒業(122th)</p> -->
             <p>2023-04 芝浦工業大学 工学部 機械工学科 入学</p>
-            <p>2023-09 個別指導塾 森塾 講師アルバイト (2024-12まで)</p>
+            <p>2023-09 個別指導塾 森塾 講師アルバイト ( ~ 2024-12)</p>
         </div>
         <div class="background-text-block">
             <h2>2025</h2>
             <p>2025-03 iOSアプリ "Coilin" リリース</p>
             <p>2025-04 筑波大学 情報学群 情報科学類 三年次編入</p>
+            <p>2025-04 Twin:te 加入</p>
             <p>2025-08 teamLab サマーインターン (モバイルアプリエンジニア)</p>
             <p>2025-09 iOSアプリ "Coupon Holder" リリース</p>
         </div>
@@ -102,7 +103,7 @@
             <div class="tag-row">
                 <div class="tag">Swift</div>
             </div>
-            <p>目標金額を設定することで、金銭面の管理が楽しくなるアプリ。iOS対応</p>
+            <p>目標金額の設定機能が実装された家計簿アプリ</p>
         </div>
     </div>
 
@@ -150,9 +151,8 @@
             <div class="tag-row">
                 <div class="tag">Swift</div>
             </div>
-            <p>コンビニなどで貰ったクーポンが、気づけば期限切れになっていた、という経験はないでしょうか？
-                このアプリは登録したクーポンの期限が近づくと、通知で知らせてくれます。
-                iOS対応。
+            <p>
+                コンビニエンスストアで貰ったクーポンを管理するアプリ。期限が近づくと通知してくれる。
             </p>
         </div>
     </div>
@@ -167,13 +167,30 @@
         <div class="card-text">
             <h1>カーテン開閉装置</h1>
             <div class="tag-row">
-                <div class="tag">Swift</div>
                 <div class="tag">ESP32</div>
                 <div class="tag">C</div>
                 <div class="tag">Firebase RTDB</div>
             </div>
-            <p>アプリ"Sunrise"で設定した時間に、装置が自動でカーテンを開きます。
-                防犯上寝る前にカーテンを開かなくても、朝に自動でカーテンを開き、日光を浴びて起床できます。
+            <p>
+                目覚まし機能を搭載したカーテンを開閉する装置。専用アプリ「Sunrise」で時刻を設定できる。
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <a href="https://note.com/towa57035260/n/n2d74223a1628?magazine_key=mf449bedc9207">
+            <img src="out_note.svg"  , alt="outsite" ,
+                class="top-pic">
+                </a>
+            <img src="宣伝用.002.jpeg"  , alt="curtain">
+        </div>
+        <div class="card-text">
+            <h1>Sunrise</h1>
+            <div class="tag-row">
+                <div class="tag">Swift</div>
+            </div>
+            <p>
+                カーテン開閉装置の操作を行うアプリ。
             </p>
         </div>
     </div>
@@ -186,8 +203,8 @@
             <div class="tag-row">
                 <div class="tag">Swift</div>
             </div>
-            <p>ゴールからの逆算によって、学習計画を立てる補助をするアプリです。
-                塾講師としてのアルバイトの経験、大学受験の失敗と成功を両方の経験から得た気づきを活かして、作成したアプリです。</p>
+            <p>ゴールからの逆算によって、学習計画を立てる補助をするアプリ。
+                塾講師の経験を活かして、勉強が苦手な子供を対象に作成した。</p>
         </div>
     </div>
     <div class="card">
@@ -201,14 +218,31 @@
         <div class="card-text">
             <h1>施錠確認装置</h1>
             <div class="tag-row">
-                <div class="tag">Swift</div>
                 <div class="tag">MPU6500</div>
                 <div class="tag">ESP32</div>
-                <div class="tag">Vapor</div>
                 <div class="tag">C</div>
             </div>
             <p>
-                遠隔から家の鍵の施錠状態を確認できるようにすることで、鍵をかけたか分からなくなっても、戻って確認しなくて良くなりました。
+                家の鍵の施錠状態を、専用アプリ「KeyStatusClient」に通知する。
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <a href="https://note.com/towa57035260/n/n82d36d254bcf">
+            <img src="out_note.svg"  , alt="outsite" ,
+                class="top-pic">
+                </a>
+            <img src="宣伝用.003.jpeg" ,alt="curtain">
+        </div>
+        <div class="card-text">
+            <h1>KeyStatusClient</h1>
+            <div class="tag-row">
+                <div class="tag">Swift</div>
+                <div class="tag">Vapor</div>
+            </div>
+            <p>
+                鍵施錠確認装置がサーバに送信した施錠状態を、スマホから確認するためのクライアントアプリ。iOS対応。サーバー部分を初めて実装したクライアントアプリでもある。
             </p>
         </div>
     </div>
@@ -229,6 +263,21 @@
             <h1>Note</h1>
             <p>
                 編入試験の体験記、モバイルアプリ開発(iOS)や電子工作関連の話題を投稿します。
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="image">
+            <a href="https://zenn.dev/keeki">
+            <img src="out_note.svg" , alt="outsite" ,
+                class="top-pic">
+                </a>
+            <img src="zenn.png"  ,alt="zenn">
+        </div>
+        <div class="card-text">
+            <h1>Zenn</h1>
+            <p>
+                競技プログラミングについては主にzennで話します。
             </p>
         </div>
     </div>
