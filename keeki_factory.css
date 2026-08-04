@@ -49,3 +49,17 @@ html,body {
 	text-align: left;
     /* margin: 5px; */
 }
+
+.link {
+	position: absolute;
+	display: flex;
+	right: 20px;
+	bottom: 20px;
+}
+
+.link img {
+	height: 30px;
+	width: 30px;
+	object-fit: cover;
+	margin: 5px;
+}
