@@ -63,3 +63,14 @@ html,body {
 	object-fit: cover;
 	margin: 5px;
 }
+
+.gif {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+.gif img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
