@@ -1,446 +1,62 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" sizes="16x16" href="favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="style-famiscoffee.css">
-    <title>Keeki's COFFEE</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./keeki_factory.css">
+	<title>keeki factory</title>
 </head>
 
 <body>
-    <div id="loading">
-        <div class="spinner"></div>
-        
-        <p>Loading...</p>
-    </div>
-    <script src="event.js"></script>
-    <div class="hero">
-        <div class="video-box overlay">
-             <div class="video-container">
-                <video autoplay muted loop playsinline>
-                    <source src="portfolio_4_24.MP4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="titlebar">
-            <img src="title_white.svg" alt="title">
-        </div>
-    </div>
-    <!-- <a href="./sezyou/sezyou_info.html">練習用</a> -->
-    <!-- <div class="mokuji">
-            <a href="#About me">About me</a>
-            <a href="#Menu">Menu</a>
-            <a href="#Links">Links</a>
-        </div> -->
+	<div class="card">
+		<div class="image">
+			<img src="./picture/owner/IMG_9260.jpg" alt="プロフィール画像">
+		</div>
 
-    <!-- <p>
-        これはkeekiのサイトです。
-    </p> -->
-
-    <img src="./picture/Union.svg", alt="point", class="point">
-
-    <div class="separator" id="Menu">
-        <h2>Owner</h2>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <img src="./picture/owner/IMG_9260.jpg" alt="プロフィール画像">
-        </div>
-
-        <div class="card-text">
-            <h1>keeki</h1>
-            <p>
-                モバイルアプリ開発(iOS)/電子工作が好き。デザイン系やセキュリティ分野に詳しくなりたい。
-                中高時代は卓球部に入って頑張っていました。（今でも続けています。）
-                学部1・2年は機械系の学科に所属しています。
-            </p>
-        </div>
-    </div>
-        <div class="card">
-        <div class="image">
-            <img src="./picture/owner/IMG_2075.jpg" alt="プロフィール画像">
-        </div>
-
-        <div class="card-text">
-            <h1>時計くん</h1>
-            <p>
-                keekiのSNSのアイコン。
-                白い時計の妖精。秒針がない。分針もない。1日が38時間ある。一浪。共テ5割。週休10日 (日本記録保持者)。
-                <i>David Lennox Mills</i>を蘇生させる研究をしている。
-            </p>
-        </div>
-    </div>
-    <div class="background-text">
-        <div class="background-text-block">
-            <h2>2023</h2>
-            <p>2023-03 | 群馬県立高崎高等学校 卒業(122th)</p>
-            <p>2023-04 | 芝浦工業大学 工学部 機械工学科 入学</p>
-            <p>2023-09 | 個別指導塾 森塾 講師アルバイト ( ~ 2024-12)</p>
-        </div>
-        <div class="background-text-block">
-            <h2>2025</h2>
-            <p>2025-03 | iOSアプリ "Coilin" リリース</p>
-            <p>2025-04 | 筑波大学 情報学群 情報科学類 三年次編入</p>
-            <p>2025-04 | Twin:te 加入</p>
-            <p>2025-08 | teamLab サマーインターン (モバイルアプリエンジニア)</p>
-            <p>2025-09 | iOSアプリ "Coupon Holder" リリース</p>
-        </div>
-        <div class="background-text-block">
-            <h2>2026</h2>
-            <p>2026-01 | 合格者編入塾 講師アルバイト (~現在)</p>
-            <p>2026-02 | Swift Student Challenge 26 Lose</p>
-            <p>2026-04 | 基本情報技術者試験 合格 (科目A: 710, 科目B: 850)</p>
-            <p>2026-05 | TOEIC Reading&Listening 745 (L: 415, R: 330)</p>
-            <p>2026-07 | iOSアプリ "無限行列計算" リリース</p>
-        </div>
-                <div class="background-text-block">
-            <h2>2027</h2>
-            <p>2027-04 | 筑波大学 システム情報工学研究群 情報理工学位プログラム 入学予定</p>
-        </div>
-    </div>
-
-    <div class="separator" id="Menu">
-        <h2>Menu</h2>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n055305ef6371?magazine_key=mf449bedc9207">
-                <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/coilin.jpeg" , alt="coilin">
-        </div>
-        <div class="card-text">
-            <h1>Coilin</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>目標金額の設定機能が実装された家計簿アプリ</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/nc2b7d8915835s">
-            <img src="./picture/overlay/out_note.svg" , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/portfolio.png" ,alt="keeki's coffee">
-        </div>
-        <div class="card-text">
-            <h1>Keeki's COFFEE</h1>
-            <p>このポートフォリオサイト。HTMLとCSSで作成。デプロイはGithub Pagesを使用。</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n13d1067cdeae?magazine_key=mf449bedc9207">
-        <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-        <img src="./picture/product/IMG_2769.heic"  ,alt="7seg">
-        </div>
-        <div class="card-text">
-            <h1>自作時計</h1>
-            <div class="tag-row">
-                <div class="tag">ESP32</div>
-                <div class="tag">C</div>
-            </div>
-            <p>ESP32と7セグメントLEDを使用して作成した自作時計。ntpサーバから時刻情報を取得し、ダイナミック制御によって4つの7セグメントLEDに時刻を表示している。</p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/nc8c47dfac8e1?magazine_key=mf449bedc9207">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/presentation.001.jpeg" , alt="coupon">
-        </div>
-        <div class="card-text">
-            <h1>Coupon Holder</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>
-                コンビニエンスストアで貰ったクーポンを管理するアプリ。期限が近づくと通知してくれる。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n2d74223a1628?magazine_key=mf449bedc9207">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/IMG_6621 2.jpeg"  , alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>カーテン開閉装置</h1>
-            <div class="tag-row">
-                <div class="tag">ESP32</div>
-                <div class="tag">C</div>
-                <div class="tag">Firebase RTDB</div>
-            </div>
-            <p>
-                目覚まし機能を搭載したカーテンを開閉する装置。専用アプリ「Sunrise」で時刻を設定できる。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n2d74223a1628?magazine_key=mf449bedc9207">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/宣伝用.002.jpeg"  , alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>Sunrise</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>
-                カーテン開閉装置の操作を行うアプリ。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-        <img src="./picture/product/comings.svg"  ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>Loadmap</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>ゴールからの逆算によって、学習計画を立てる補助をするアプリ。
-                塾講師の経験を活かして、勉強が苦手な子供を対象に作成した。</p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n82d36d254bcf">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/kairozu_sezyou.png" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>施錠確認装置</h1>
-            <div class="tag-row">
-                <div class="tag">MPU6500</div>
-                <div class="tag">ESP32</div>
-                <div class="tag">C</div>
-            </div>
-            <p>
-                家の鍵の施錠状態を、専用アプリ「KeyStatusClient」に通知する。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n82d36d254bcf">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/宣伝用.003.jpeg" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>KeyStatusClient</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-                <div class="tag">Vapor</div>
-            </div>
-            <p>
-                鍵施錠確認装置がサーバに送信した施錠状態を、スマホから確認するためのクライアントアプリ。iOS対応。サーバー部分を初めて実装したクライアントアプリでもある。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n49d1f1b577ff">
-            <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/infinity_matrix.png" ,alt="matrix">
-        </div>
-        <div class="card-text">
-            <h1>無限行列計算</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>
-                線形代数の基本である行列の加減や積の計算問題を無限に出題する、演習用アプリ。
-            </p>
-        </div>
-    </div>
-
-
-    <div class="card">
-        <div class="image">
-            <a href="https://github.com/keeki-fami/AtCoder_in_Swift">
-            <img src="./picture/overlay/out_github.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/atcoderinswift.png" ,alt="matrix">
-        </div>
-        <div class="card-text">
-            <h1>AtCoder-In-Swift</h1>
-            <div class="tag-row">
-                <div class="tag">Swift</div>
-            </div>
-            <p>
-                SwiftでAtCoderをやるためのライブラリ。現在進行形で開発中。使用する際は、提出するソースコードにコピペしてください。
-            </p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260/n/n01e31d6dd6ba">
-                <img src="./picture/overlay/out_note.svg"  , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/product/chameleon.png" , alt="chameleon">
-        </div>
-        <div class="card-text">
-            <h1>Chameleon</h1>
-            <div class="tag-row">
-                <div class="tag">Blender</div>
-                <div class="tag">ESP32</div>
-                <div class="tag">BLE</div>
-                <div class="tag">S9706</div>
-                <div class="tag">Swift</div>
-            </div>
-            <p>カメレオンが背景の色に合わせて、体色を変化させる。</p>
-        </div>
-    </div>
-    
-
-    <div class="separator" id="Links">
-        <h2>Links</h2>
-    </div>
-
-    <div class="card">
-        <div class="image">
-            <a href="https://note.com/towa57035260">
-            <img src="./picture/overlay/out_note.svg" , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/link/note_hennnyuugoukaku.png"  ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>Note</h1>
-            <p>
-                編入試験についての話題、自身の人生の大半を占めた勉強と向き合った記事、趣味について（音楽など）、開発中の気持ちなどについて発信します。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://github.com/keeki-fami">
-            <img src="./picture/overlay/out_github.svg" , alt="outsite", class="top-pic">
-            </a>
-            <img src="./picture/link/github.png" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>Github</h1>
-            <p>
-                いっぱいスターください。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://zenn.dev/keeki">
-            <img src="./picture/overlay/out_zenn.svg" , alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/link/zenn.png"  ,alt="zenn">
-        </div>
-        <div class="card-text">
-            <h1>Zenn</h1>
-            <p>
-                競技プログラミングについては主にzennで話します。技術のアウトプットとして活用します。正確な技術の発信をするという責任を感じる経験、幅広い層に分かりやすくするためにはどうすべきかを考える経験を積みたいです。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://www.youtube.com/@keeki_factory">
-            <img src="./picture/overlay/out_youtube.svg", alt="outsite" ,
-                class="top-pic">
-                </a>
-            <img src="./picture/link/piano1.png" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>YouTube</h1>
-            <p>
-                プログラミングの動画と、ピアノの演奏動画を、交互にアップロードします。
-            </p>
-            <p>
-
-                <!-- プログラミング系の話題、ピアノの演奏動画をアップロードします。 -->
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://atcoder.jp/users/keeki">
-            <img src="./picture/overlay/out_atcoder.svg" , alt="outsite", class="top-pic">
-            </a>
-            <img src="./picture/link/atcoder.png" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>AtCoder</h1>
-            <p>
-                編入試験対策として大学1年の夏にCで始めました。アルゴリズムの学習は程々に、問題発見能力、課題解決能力を鍛えたいです。入水目指しています。
-            </p>
-        </div>
-    </div>
-    <div class="card">
-        <div class="image">
-            <a href="https://code.golf/golfers/keeki-fami">
-            <img src="./picture/overlay/out_codegolf.png" , alt="outsite", class="top-pic">
-            </a>
-            <img src="./picture/link/codegolf.png" ,alt="curtain">
-        </div>
-        <div class="card-text">
-            <h1>Code Golf</h1>
-            <p>
-                最近始めました。Swiftでやってます。Swiftの何たるかを知りたいです。
-            </p>
-        </div>
-    </div>
-
-    <div class="separator" id="Menu">
-        <h2>Music</h2>
-    </div>
-
-    <p>リンクを押すと、Youtubeのプレイリストに飛びます。</p>
-    <div class="background-text">
-    <p>
-        <a href="https://youtube.com/playlist?list=PLLP06lovCGLOhYcxPf5QP7uDnhuMJcyX1&si=nA0F0HrO6X7QfFRE">Mr.Children</a> / 
-        <a href="https://youtube.com/playlist?list=PLLP06lovCGLOwK92sDnZcB6MTcj5gecsd&si=ZP5-SFhYSSop-XNU">RADWIMPS</a> / 
-        <a href="https://youtube.com/playlist?list=PLLP06lovCGLMotthRn3FATRifLV-F_fdA&si=4joEm4FZneTbDJfk">Perfume</a> / 
-        <a href="https://youtube.com/playlist?list=PLLP06lovCGLP8B_nhTfPx7-yNaXnZjirh&si=45yubvylI_tivx3D">きのこ帝国</a> / 
-        <a href="https://youtube.com/playlist?list=PLLP06lovCGLOCTlQ6ad6BYrAGwtZIF5Wc&si=jWUTwA4rZIujAWLa">back number</a> / 
-        <a href="https://www.youtube.com/playlist?list=PLLP06lovCGLNhvC01xfPYYXwUNU2pPU2M">JUDY AND MARY</a>
-    </p>
-    </div>
-    
-
-    <div class="bottombar">
-        <h2>Thank you for visiting my site.</h2>
-        <a href="introduce_tokei/introduce_tokei.html">btw, What is that clock?</a>
-        <p>&copy;2026 keeki</p>
-    </div>
+		<div class="card-text">
+			<h1>keeki</h1>
+			<p>
+				- Computer Science Student
+			</p>
+			<p>
+				- Shibaura Institute of Technology | AA23 (2023 - 2025)
+			</p>
+			<p>
+			- University of Tsukuba | coins23 (2025 - )
+			</p>
+			<p>
+				- Language.Programming: Swift / C / Rust etc
+			</p>
+			<p>
+				- Language.Real: Japanese / English
+			</p>
+			<p>
+				- I like: mobile app development / electronic works
+			</p>
+		</div>
+	</div>
+	<div class="link">
+		<a href="https://note.com">
+			<img src="./picture/link/note_icon_white.png" alt="note">
+		</a>
+		<a href="https://www.youtube.com/@keeki_factory">
+			<img src="./picture/link/youtube_icon_white.png" alt="note">
+		</a>
+		<a href="https://atcoder.jp/users/keeki">
+			<img src="./picture/link/atcoder_icon_white.png" alt="note">
+		</a>
+		<a href="https://github.com/keeki-fami">
+			<img src="./picture/link/github_icon_white.png" alt="note">
+		</a>
+	</div>
+	<div class="footer">
+		<p>
+			@2026 keeki
+		</p>
+	</div>
+	<div class="old_page">
+		<a href="./old_index_9_1.html">old page</a>
+	</div>
 </body>
 
 </html>
