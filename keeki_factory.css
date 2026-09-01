@@ -1,10 +1,11 @@
-html,body {
-    text-align: center;
-    /* margin: 50px; */
-    background-color: #3375D7;
-    /* font-family: "YuMincho"; */
+html,
+body {
+	text-align: center;
+	/* margin: 50px; */
+	background-color: #3375D7;
+	/* font-family: "YuMincho"; */
 	/*https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11173487361*/
-	font-family: Roboto Slab , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	font-family: Roboto Slab, Garamond, "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -20,9 +21,9 @@ html,body {
 
 	transform: translate(-50%, -50%);
 
-    display: flex;
+	display: flex;
 	align-items: center;
-    justify-content: center;
+	justify-content: center;
 	height: 300px;
 	padding: 50px;
 	/* width: 50%; */
@@ -31,26 +32,62 @@ html,body {
 	/* vertical-align: middle; */
 }
 
-.card img {
-  object-fit: cover; 
-  width: 300px; 
-  height: 300px;
-  margin-right: 16px;
-  padding-right: 16px;
-  border-right: 1px solid #000; /* ← 縦線 */
+
+@media (max-width: 1000px) {
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		height: 800px;
+		width: 500px;
+	}
+
+	.card img {
+		object-fit: cover;
+		width: 400px;
+		height: 400px;
+		margin-bottom: 16px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid #000;
+	}
+
+	.card-text h1 {
+		font-size: 50px;
+	}
+
+	.card-text p {
+		font-size: 20px;
+		margin: 5px;
+		text-align: left;
+		/* margin: 5px; */
+	}
 }
 
-.card-text h1 {
-    font-size: 30px;
-    margin: 5px;
+@media (min-width: 1000px) {
+	.card img {
+		object-fit: cover;
+		width: 300px;
+		height: 300px;
+		margin-right: 16px;
+		padding-right: 16px;
+		border-right: 1px solid #000;
+		/* ← 縦線 */
+	}
+
+	.card-text h1 {
+		font-size: 30px;
+		margin: 5px;
+	}
+	.card-text p {
+		font-size: 15px;
+		margin: 5px;
+		text-align: left;
+		/* margin: 5px; */
+	}
 }
 
-.card-text p {
-    font-size: 15px;
-    margin: 5px;
-	text-align: left;
-    /* margin: 5px; */
-}
 
 .link {
 	position: absolute;
@@ -71,6 +108,7 @@ html,body {
 	right: 50px;
 	top: 50px;
 }
+
 .gif img {
 	height: 50px;
 	width: 50px;
@@ -78,15 +116,51 @@ html,body {
 }
 
 .footer {
-	position: absolute;    
+	position: absolute;
 	left: 50%;
 	bottom: 20px;
 	color: white;
 }
 
 .old_page {
-	position: absolute;    
+	position: absolute;
 	left: 20px;
 	bottom: 20px;
 	color: white;
+}
+
+
+@media (max-width: 1000px) {
+	.footer {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+
+	.old_page {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+
+	.link {
+		position: absolute;
+		left: 50%;
+		bottom: 10%;
+		transform: translate(-50%, -50%);
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.link img {
+		height: 100px;
+		width: 100px;
+		object-fit: cover;
+		margin: 10px;
+	}
 }
