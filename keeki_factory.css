@@ -117,6 +117,7 @@ body {
 
 .footer {
 	position: absolute;
+	transform: translate(-50%, 0%);
 	left: 50%;
 	bottom: 20px;
 	color: white;
