@@ -1,0 +1,23 @@
+{
+    "birth": {
+	"year": 2004,
+	"month": 12,
+	"day": 22,
+    },
+    "name": "Towa Sakurada",
+    "country": "Japan",
+    "languages": {
+	"real": {
+	    "Japanese",
+	    "English",
+	},
+	"programming": {
+	    "C",
+	    "Swift",
+	    "Rust",
+	    "Python",
+	    "Zig",
+	    "JavaScript",
+	}
+    },
+}
