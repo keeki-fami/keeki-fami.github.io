@@ -100,8 +100,8 @@ body {
 .link img {
 	height: 50px;
 	width: 50px;
-	object-fit: cover;
-	margin: 5px;
+	object-fit: contain;
+	margin: 10px;
 }
 
 .gif {
@@ -164,6 +164,7 @@ body {
 		width: 100px;
 		object-fit: cover;
 		margin: 10px;
+		color: yellow;
 	}
 }
 
