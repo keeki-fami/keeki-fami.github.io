@@ -160,11 +160,10 @@ body {
 	}
 
 	.link img {
-		height: 100px;
-		width: 100px;
-		object-fit: cover;
-		margin: 10px;
-		color: yellow;
+		height: 75px;
+		width: 75px;
+		object-fit: contain;
+		margin: 15px;
 	}
 }
 
